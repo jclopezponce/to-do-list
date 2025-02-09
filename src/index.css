@@ -1,0 +1,26 @@
+body {
+  width: 400px;
+  display: block;
+  margin: auto;
+  background-color: #417d85;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.container {
+  margin-top: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #417d85;
+}
+
+.input {
+  min-width: 400px;
+}
+
+.list{
+  width: 100%;
+  background-color:#417d85;
+
+}
+
+
