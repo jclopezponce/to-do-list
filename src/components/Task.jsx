@@ -24,12 +24,12 @@ function isChecked(){
           <ListItem>        
             <ListItemButton>
               <ListItemIcon>
-                <Checkbox onClick={isChecked} checked={checked}/>
+                <Checkbox onClick={isChecked} checked={checked} style={{color: "whitesmoke"}}/>
               </ListItemIcon>
               <ListItemText style={{textDecoration: checked ? "line-through" : "none"}}>{props.task}</ListItemText>
               </ListItemButton>
               <IconButton>
-                <DeleteIcon onClick={() => {
+                <DeleteIcon  style={{color: "whitesmoke"}} onClick={() => {
           props.onDelete(props.id);
         }}/>
               </IconButton>
