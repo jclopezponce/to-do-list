@@ -4,7 +4,7 @@ export default function Header(){
     return (
         <header>
             <h1>
-            To Do List
+            To Do Lista
             </h1>
             
         </header>
