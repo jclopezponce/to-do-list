@@ -26,8 +26,9 @@ export default function CreateArea(props) {
             {alert}
         <div className="input">
         
-        <input required name="task" type="text" onChange={e => setTask(e.target.value) + setAlert("")} value={task} placeholder="Insert text here"/>
-        <Fab size="small" type="submit" aria-label="add" onClick={submitTask}>
+        <input required name="task" type="text" autofocus="autofocus" onKeyDown={(e) => {
+        if (e.key === "Enter")  submitTask(); }} onChange={e => setTask(e.target.value) + setAlert("")} value={task} placeholder="Insert Task"/>
+        <Fab size="small" aria-label="add"  onClick={submitTask}>
         <AddIcon/>
         </Fab>
         </div>

@@ -22,9 +22,9 @@ function isChecked(){
   return (
     <List className='list'>        
           <ListItem>        
-            <ListItemButton>
+            <ListItemButton onClick={isChecked}>
               <ListItemIcon>
-                <Checkbox onClick={isChecked} checked={checked} style={{color: "whitesmoke"}}/>
+                <Checkbox checked={checked} style={{color: "whitesmoke"}}/>
               </ListItemIcon>
               <ListItemText style={{textDecoration: checked ? "line-through" : "none"}}>{props.task}</ListItemText>
               </ListItemButton>

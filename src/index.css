@@ -22,6 +22,7 @@ body {
 }
 
 .container{
+  max-width: 400px;
   margin-top: 100px;
   border-radius: 5px;
   background-color: #DDA853;
@@ -33,6 +34,7 @@ body {
   padding: 5px;
 }
 .input > input {
+  display: block;
   width: 80%;
   border: none;
   background-color: #DDA853;
@@ -44,6 +46,7 @@ body {
 .container > ul{
   background-color: #DDA853;
   border-radius: 5px;
+  overflow-wrap: break-word;
 }
 
 
